@@ -4,10 +4,10 @@ height = float(input('Please enter your height(meter): '))
 bmi = weight / (height * height)
 print(bmi)
 if bmi < 18.5 :
-    print('Underweight.')
+    print('Your BMI number is ', bmi, 'Underweight.')
 elif bmi >= 25 and bmi < 29.9 :
-    print('Overweight')  
+    print('Your BMI number is ', bmi, 'Overweight')  
 elif bmi >= 30 :
-    print('Overweight')    
+    print('Your BMI number is ', bmi, 'Obese')    
 else:
-    print('Healthy')
+    print('Your BMI number is ', bmi, 'Healthy')
